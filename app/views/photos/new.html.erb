@@ -1,0 +1,6 @@
+<h1>画像登録</h1>
+<br>
+<%= form_for @photo do |f| %>
+    <%= f.file_field :image %>
+    <%= f.submit "送信" %>
+<% end %>
